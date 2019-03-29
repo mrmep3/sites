@@ -1,0 +1,237 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.s_teaser .row > div {
+		text-align: center;
+	}
+	.teaser_descr {
+		display: block;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.s_teaser .row > div {
+		text-align: left;
+	}
+	.teaser_descr {
+		display: inline-block;
+	}
+	.prof_item:last-child {
+		margin-bottom: 40px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_phone, .logo, h1, .top_header h2 {
+		text-align: center;
+	}
+	.logo {
+		margin-bottom: 15px;
+	}
+	.top_phone .tab_item {
+		font-size: 30px;
+	}
+	.s_teaser .row > div {
+		text-align: center;
+	}
+	.teaser_descr {
+		display: block;
+	}
+	.s_teaser .row > div:nth-child(1) span {
+		margin-top: 16px;
+	}
+	.s_teaser .row > div:nth-child(2) span {
+		margin-top: 11px;
+	}
+	.s_teaser .row > div:nth-child(3) span {
+		margin-top: 15px;
+	}
+	.s_teaser .row > div:nth-child(4) span {
+		margin-top: 11px;
+	}
+	.prof_left {
+		text-align: center;
+	}
+	.prof_right h3 {
+		display: block;
+		text-align: center;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_header {
+		margin-top: 30px;
+	}
+	.top_header h1 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.top_header h2 {
+		font-size: 30px;
+	}
+	.tabs_header .tabs .tab {
+		font-size: 12px;
+		padding: 6px 8px;
+	}
+	.prof_item {
+		width: 100%;
+		text-align: center;
+	}
+	section h2 {
+		font-size: 38px;
+		line-height: 40px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*CSS Custom Screen */
+@media (min-height : 760px) and (max-width : 1400px) {
+	.tabs_header {
+		//position: absolute;
+		bottom: 80px;
+		padding-bottom: 40px;
+	}
+	.tabs_header > div {
+		//position: absolute;
+		width: 100%;
+		max-width: 660px;
+	}
+	.top_header {
+		margin-top: 170px;
+	}
+}
+
+@media (min-width : 992px) and (max-width : 1200px) {
+	.s_teaser .row > div:nth-child(1) span {
+		margin-top: 16px;
+	}
+	.s_teaser .row > div:nth-child(2) span {
+		margin-top: 11px;
+	}
+	.s_teaser .row > div:nth-child(3) span {
+		margin-top: 15px;
+	}
+	.s_teaser .row > div:nth-child(4) span {
+		margin-top: 11px;
+	}
+}
+
+@media (min-width : 100px) and (max-width : 400px) {
+	.s_teaser .row > div:nth-child(1) span {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.s_teaser .row > div:nth-child(2) span {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.s_teaser .row > div:nth-child(3) span {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.s_teaser .row > div:nth-child(4) span {
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.s_teaser .row > div:nth-child(1) strong {
+		font-size: 18px;
+	}
+	.s_teaser .row > div:nth-child(2) strong {
+		font-size: 18px;
+	}
+	.s_teaser .row > div:nth-child(3) strong {
+		font-size: 18.5px;
+	}
+	.s_teaser .row > div:nth-child(4) strong {
+		font-size: 19px;
+	}
+	.s_contacts h2 {
+		margin-bottom: 20px;
+	}
+	.s_contacts .tabs .tab {
+		font-size: 12px;
+		padding: 0 10px;
+	}
+	.s_contacts .wrapper {
+		font-size: 15px;
+	}
+	.s_review {
+		-webkit-background-size: auto;
+		background-size: auto;
+	}
+	.s_back h3 {
+		font-size: 20px;
+	}
+	.prev_button, .next_button {
+		top: 0;
+	}
+
+}
+
+@media (min-width : 401px) and (max-width : 553px) {
+	.s_contacts h2 {
+		margin-bottom: 20px;
+	}
+	.prev_button, .next_button {
+		top: 0;
+	}
+	.s_review {
+		-webkit-background-size: auto;
+		background-size: auto;
+	}
+	.s_contacts .tabs .tab {
+		font-size: 14px;
+		padding: 0 20px;
+	}
+	.s_contacts .wrapper {
+		font-size: 15px;
+	}
+}
+
+@media (min-width : 554px) and (max-width : 865px) {
+	.s_contacts h2 {
+		margin-bottom: 20px;
+	}
+	.s_review {
+		-webkit-background-size: auto;
+		background-size: auto;
+	}
+}

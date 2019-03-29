@@ -1,0 +1,109 @@
+body {
+  color: #333;
+  letter-spacing: 1px; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+  -webkit-box-shadow: #9B1818 0 0 0 2px;
+          box-shadow: #9B1818 0 0 0 2px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  border-color: #9B1818; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+a {
+  color: #FF6347; }
+
+h1 {
+  color: #fff; }
+
+section,
+footer {
+  color: #003469; }
+  section.s_dark h2, section.s_dark h3, section.s_dark p,
+  footer.s_dark h2,
+  footer.s_dark h3,
+  footer.s_dark p {
+    color: #fff; }
+
+.bottom_phone {
+  color: #9B1818; }
+
+header {
+  color: #fff; }
+
+.tabs_header .wrapper .active {
+  color: #000; }
+
+.tabs_header .tab_content {
+  color: #000; }
+
+.tabs_header ul li i {
+  color: #6f6a67; }
+
+.button {
+  background-color: #000;
+  color: #fff; }
+  .button.btn_red {
+    background-color: #9B1818; }
+  .button.btn_green {
+    background-color: #67bc5c; }
+  .button.btn_blue {
+    background-color: #003469; }
+  .button.btn_white {
+    background-color: #fff;
+    color: #000; }
+
+.button:hover {
+  color: #333; }
+
+.s_teaser {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c6d8ee), to(#e8eff7));
+  background: -webkit-linear-gradient(#c6d8ee, #e8eff7);
+  background: -o-linear-gradient(#c6d8ee, #e8eff7);
+  background: linear-gradient(#c6d8ee, #e8eff7);
+  color: #003469; }
+
+.prof_left i {
+  color: #9B1818; }
+
+.prof_right h3 {
+  color: #9B1818; }
+
+form {
+  border: #67bc5c 5px solid; }
+  form h2 {
+    color: #333; }
+  form label {
+    color: #666; }
+  form input:focus,
+  form select:focus {
+    -webkit-box-shadow: #67bc5c 0 0 0 2px;
+            box-shadow: #67bc5c 0 0 0 2px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    border-color: #67bc5c; }
+
+.review_item {
+  color: #fff; }
+
+.s_contacts h2 {
+  color: #000; }
+
+.s_contacts .tab {
+  border: #9B1818 5px solid;
+  color: #9B1818; }
+  .s_contacts .tab.active {
+    background-color: #9B1818;
+    color: #fff; }
+
+.map {
+  background-color: #799FB8; }
+
+.signature {
+  background-color: #9B1818;
+  color: #fff; }
