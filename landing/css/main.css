@@ -59,6 +59,10 @@ section {
       margin-left: -75px;
       margin-top: 60px; }
 
+.parallax-window {
+  min-height: 468px;
+  background: transparent; }
+
 .main_head {
   min-height: 468px;
   padding-top: 20px; }
@@ -102,7 +106,6 @@ svg {
   width: 60px;
   position: fixed;
   z-index: 12;
-  float: right;
   border: none;
   right: 20px;
   top: 20px; }
@@ -248,10 +251,13 @@ svg {
       text-align: center;
       vertical-align: middle; }
   .top_wrapper .top_text {
-    display: inline-block; }
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
     .top_wrapper .top_text h1 {
       display: inline-block;
-      padding: 10px 80px;
+      padding: 10px 35px;
       text-transform: uppercase;
       color: #fff;
       font-family: "Rounded Mplus 1c";
@@ -285,28 +291,29 @@ svg {
     .main_footer .social_wrap ul {
       margin: 0; }
 
-.s_about {
-  z-index: 10; }
-  .s_about p {
-    margin-bottom: 25px; }
-  .s_about ul,
-  .s_about li {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-  .s_about li {
-    margin-bottom: 10px; }
-  .s_about .social_wrap {
-    margin-top: 20px; }
+.s_about p {
+  margin-bottom: 25px; }
+
+.s_about ul,
+.s_about li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.s_about li {
+  margin-bottom: 10px; }
+
+.s_about .social_wrap {
+  margin-top: 20px; }
 
 .person {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 35px; }
   .person img {
     max-width: 220px;
     display: inline-block;
     -webkit-border-radius: 50%;
-            border-radius: 50%;
-    margin-bottom: 35px; }
+            border-radius: 50%; }
 
 .social_wrap li {
   display: inline-block;

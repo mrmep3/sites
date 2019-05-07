@@ -7,7 +7,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.personal_block {
+	.personal_last_block {
 		margin-top: 35px;
 	}
 }
@@ -43,13 +43,6 @@
 	.main_footer .social_wrap ul {
 		padding-left: 0;
 	}
-	.parallax-mirror {
-		height: 480px;
-	}
-	.parallax-window {
-    min-height: 400px;
-    background: transparent;
-	}
 }
 
 /* Custom, iPhone Retina */
@@ -80,7 +73,7 @@
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }
