@@ -251,5 +251,66 @@ svg {
 
 section {
   padding: 70px 0 90px;
-  background-color: #ff0;
+}
+
+.section-menu {
+  height: 750px;
+  min-height: 468px;
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  z-index: 1;
+}
+
+.section-menu__title {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.section-menu__line-left-light {
+  display: inline-block;
+}
+
+.section-menu__line-left-light svg {
+  fill: #fff;
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.section-menu__line-rigth-light {
+  display: inline-block;
+}
+
+.section-menu__line-rigth-light svg {
+  fill: #fff;
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.section-menu__content ul, .section-menu__content li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.section-menu__content li {
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 2;
+  font-size: 0.85em;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.section-menu__content ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

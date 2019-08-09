@@ -19,6 +19,26 @@ svg path {
   background-color: #337AB7;
 }
 
+.section-news {
+  background-color: #ece8e8;
+}
+
+.section-menu__title {
+  color: #ece8e8;
+  letter-spacing: -1px;
+}
+
+.section-menu__content li {
+  color: #888;
+  letter-spacing: 2px;
+}
+
+.section-menu__content li.active {
+  color: #fff;
+  border-bottom: 1px solid #337AB7;
+  border-top: 1px solid #337AB7;
+}
+
 p,
 body .main_footer,
 .s_about li {
