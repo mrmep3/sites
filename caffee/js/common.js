@@ -28,6 +28,8 @@ $(document).ready(function() {
 
 	$(".top_menu a").mPageScroll2id();
 
+	$(".section-menu__content-grid").mixItUp();
+
 	$(".section-menu__content li").click(function() {
 		$(".section-menu__content li").removeClass("active");
 		$(this).addClass("active");

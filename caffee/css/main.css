@@ -25,10 +25,10 @@ body textarea:required:valid {
 section,
 .main_head {
   position: relative;
+  height: auto;
 }
 
 .main_head {
-  height: 960px;
   min-height: 468px;
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(50, 50, 50, 0.2) 100%);
   background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(50, 50, 50, 0.2) 100%);
@@ -265,9 +265,10 @@ section {
 .section-menu__title {
   text-align: center;
   width: 100%;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: normal;
   line-height: 30px;
+  font-family: "CarefreeCyrillic";
 }
 
 .section-menu__line-left-light {
@@ -313,4 +314,39 @@ section {
 .section-menu__content ul {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.section-menu__content-grid {
+  text-align: center;
+}
+
+.content_item {
+  display: none;
+}
+
+.content_item .menu_list {
+  text-align: left;
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 20px;
+}
+
+.content_item .menu_list .item_title {
+  float: left;
+  width: 80%;
+}
+
+.content_item .menu_list .item_price {
+  float: right;
+  width: 18%;
+  text-align: right;
+}
+
+.content_item .menu_list .item_description {
+  width: 100%;
+  margin-top: -15px;
+  font-size: 12px;
 }

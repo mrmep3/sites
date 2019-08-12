@@ -1,5 +1,5 @@
 body {
-  color: #222;
+  color: #ece8e8;
   letter-spacing: 1px;
 }
 
@@ -37,6 +37,10 @@ svg path {
   color: #fff;
   border-bottom: 1px solid #337AB7;
   border-top: 1px solid #337AB7;
+}
+
+.section-menu__title h4 {
+  letter-spacing: 2px;
 }
 
 p,

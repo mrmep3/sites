@@ -33,3 +33,10 @@
   font-weight: 900;
   font-style: normal	1;
 }
+
+@font-face {
+  font-family: 'CarefreeCyrillic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CarefreeCyrillic/CarefreeCyrillic.eot?#iefix") format("embedded-opentype"), url("../fonts/CarefreeCyrillic/CarefreeCyrillic.woff") format("woff"), url("../fonts/CarefreeCyrillic/CarefreeCyrillic.ttf") format("truetype");
+}
