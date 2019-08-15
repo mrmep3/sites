@@ -1,13 +1,17 @@
 body {
-  color: #ece8e8;
+  color: #888;
   letter-spacing: 1px;
 }
 
-a {
-  color: #222;
+section {
+  background-color: #161721;
 }
 
-svg path {
+a {
+  color: #888;
+}
+
+svg {
   fill: #fff;
 }
 
@@ -20,6 +24,10 @@ svg path {
 }
 
 .section-news {
+  background-color: #ece8e8;
+}
+
+.section-kek {
   background-color: #ece8e8;
 }
 
@@ -41,6 +49,14 @@ svg path {
 
 .section-menu__title h4 {
   letter-spacing: 2px;
+}
+
+.menu_list-decriprion {
+  background: #ece8e8;
+}
+
+.menu_list:hover {
+  background: rgba(51, 122, 183, 0.3);
 }
 
 p,

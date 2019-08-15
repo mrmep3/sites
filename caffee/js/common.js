@@ -19,7 +19,7 @@ $(document).ready(function() {
 	});
 
 	function heightDetect() {
-	$(".main_head").css("height", $(window).height());
+	$(".main_head, .section-menu").css("height", $(window).height());
 		};
 		heightDetect();
 		$(window).resize(function() {
@@ -35,19 +35,38 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 
-	//$(".popup").magnificPopup({type:"image"});
-	$(".popup_content").magnificPopup({type:"inline"});
+	$(".popup").magnificPopup({type:"image"});
+	//$(".popup_content").magnificPopup({type:"inline"});
 
-//	$(".popup_content").magnificPopup({
-//		//type:"inline",
-//	  delegate: "a",
-//	  removalDelay: 500, //delay removal by X to allow out-animation
-//	  callbacks: {
-//	    beforeOpen: function() {
-//	       this.st.mainClass = this.st.el.attr("data-effect");
-//	    }
-// 		},
-//	  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-//	});
+	$(".menu_list").magnificPopup({
+	  delegate: "a",
+	  removalDelay: 500, //delay removal by X to allow out-animation
+	  callbacks: {
+	    beforeOpen: function() {
+	       this.st.mainClass = this.st.el.attr("data-effect");
+	    }
+ 		},
+	  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+	});
+
+	$(".carousel").owlCarousel({
+		loop : true,
+		responsive: {
+			0 : {
+				items : 1, 
+				nav : false,
+				dots : true
+			}
+		},
+		navText : ""
+	});
+	var owl = $('.owl-carousel');
+	owl.owlCarousel();
+	$(".next_button").click(function() {
+		owl.trigger("next.owl.carousel");
+	});
+	$(".prev_button").click(function() {
+		owl.trigger("prev.owl.carousel");
+	});
 
 });
