@@ -27,12 +27,13 @@ svg {
   background-color: #ece8e8;
 }
 
-.section-kek {
+.section-reviews,
+.section-contacts {
   background-color: #ece8e8;
 }
 
 .section-menu__title {
-  color: #ece8e8;
+  color: #fff;
   letter-spacing: -1px;
 }
 

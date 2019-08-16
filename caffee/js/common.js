@@ -26,7 +26,7 @@ $(document).ready(function() {
 			heightDetect();
 	});
 
-	$(".top_menu a").mPageScroll2id();
+	$(".top_menu a, .buttons a").mPageScroll2id();
 
 	$(".section-menu__content-grid").mixItUp();
 
@@ -47,6 +47,15 @@ $(document).ready(function() {
 	    }
  		},
 	  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+	});
+
+	$(".popup-gmaps").magnificPopup({
+		disableOn: 700,
+		type: "iframe",
+		mainClass: "mfp-fade",
+		removalDelay: 160,
+		preloader: false,
+		fixedContentPos: false
 	});
 
 	$(".carousel").owlCarousel({
