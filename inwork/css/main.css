@@ -567,3 +567,23 @@ form textarea {
   display: block;
   margin-bottom: 20px;
 }
+
+.review_item {
+  text-align: center;
+}
+
+.review_item h4 {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.review_item p {
+  margin: 30px 0;
+  display: inline-block;
+  float: none;
+  font-size: 15px;
+}
