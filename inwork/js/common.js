@@ -19,7 +19,7 @@ $(document).ready(function() {
 	});
 
 	function heightDetect() {
-	$(".main_head, .section-menu").css("height", $(window).height());
+	$(".main_head").css("height", $(window).height());
 		};
 		heightDetect();
 		$(window).resize(function() {
@@ -38,9 +38,9 @@ $(document).ready(function() {
 	$(".popup").magnificPopup({type:"image"});
 	//$(".popup_content").magnificPopup({type:"inline"});
 
-	$(".menu_list").magnificPopup({
+	$(".menu_item").magnificPopup({
 	  delegate: "a",
-	  removalDelay: 500, //delay removal by X to allow out-animation
+	  removalDelay: 50, //delay removal by X to allow out-animation
 	  callbacks: {
 	    beforeOpen: function() {
 	       this.st.mainClass = this.st.el.attr("data-effect");

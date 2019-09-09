@@ -356,41 +356,25 @@ section {
   width: 100%;
 }
 
-.menu_item .menu_item-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  vertical-align: top;
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  -webkit-transition: all .4s;
-  -o-transition: all .4s;
-  transition: all .4s;
-}
-
-.menu_item:hover .menu_item-content {
-  opacity: 1;
-}
-
-.menu_item h2 {
-  padding: 110px 15px;
-  margin: 15px;
-  text-transform: uppercase;
-  font-weight: 300;
-}
-
-.menu_item span {
-  font-weight: 700;
-}
-
-.menu_descr {
+.menu_list-decriprion {
   position: relative;
   width: auto;
   max-width: 800px;
   margin: auto;
-  padding: 15px;
+  padding: 3px 10px;
+}
+
+.menu_list-decriprion img {
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu_list-decriprion h3 {
+  float: right;
+  text-align: center;
+  width: 100%;
 }
 
 .mfp-zoom-in {

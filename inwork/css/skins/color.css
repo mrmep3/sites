@@ -1,44 +1,58 @@
 body {
-  color: #888;
+  color: #192428;
   letter-spacing: 1px;
 }
 
-section {
-  background-color: #161721;
-}
-
 a {
-  color: #888;
+  color: #192428;
 }
 
 svg {
   fill: #fff;
 }
 
+.logo h1, .logo p {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
 .button {
-  color: #ece8e8;
+  color: #f3eeeb;
 }
 
 .button:hover {
   background-color: #337AB7;
 }
 
-.section-news {
-  background-color: #ece8e8;
+.section__title h2 {
+  color: #337AB7;
+  letter-spacing: -1px;
+}
+
+.section__title svg {
+  fill: #337AB7;
+}
+
+.section__title {
+  color: #337AB7;
+}
+
+.section-about {
+  background-color: #f3fafd;
 }
 
 .section-reviews,
 .section-contacts {
-  background-color: #ece8e8;
+  background-color: #f3eeeb;
 }
 
-.section-menu__title {
+.section__title {
   color: #fff;
   letter-spacing: -1px;
 }
 
 .section-menu__content li {
-  color: #888;
+  color: #192428;
   letter-spacing: 2px;
 }
 
@@ -52,18 +66,40 @@ svg {
   letter-spacing: 2px;
 }
 
-.menu_list-decriprion {
-  background: #ece8e8;
+.menu_descr {
+  background: #f3eeeb;
 }
 
-.menu_list:hover {
-  background: rgba(51, 122, 183, 0.3);
+.menu_item-content h2 {
+  border: 2px solid #337AB7;
+  color: #fff;
+}
+
+.menu_item-content span {
+  color: #337AB7;
+}
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #337AB7;
+}
+
+form input,
+form textarea {
+  letter-spacing: 1px;
+}
+
+form button {
+  background-color: #337AB7;
+  border: none;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 p,
 body .main_footer,
 .s_about li {
-  color: #888;
+  color: #192428;
 }
 
 .color_element {
@@ -83,7 +119,7 @@ body .main_footer,
 }
 
 .bg_ligth {
-  background-color: #ece8e8;
+  background-color: #f3eeeb;
 }
 
 .bg_dark {
@@ -108,7 +144,7 @@ body .main_footer,
 }
 
 .top_text p {
-  color: #ece8e8;
+  color: #f3eeeb;
   letter-spacing: 4px;
 }
 
@@ -122,7 +158,7 @@ body .main_footer,
 
 section h3 {
   letter-spacing: 3px;
-  color: #888;
+  color: #192428;
 }
 
 .s_about p:nth-child(even) {
@@ -148,7 +184,7 @@ section h3 {
 }
 
 .s_portfolio li {
-  color: #888;
+  color: #192428;
   letter-spacing: 2px;
 }
 
@@ -182,21 +218,4 @@ section h3 {
 
 .text-danger {
   color: #337AB7;
-}
-
-form input:focus,
-form textarea:focus {
-  border: 1px solid #337AB7;
-}
-
-form input,
-form textarea {
-  letter-spacing: 1px;
-}
-
-form button {
-  background-color: #337AB7;
-  border: none;
-  color: #fff;
-  letter-spacing: 1px;
 }
