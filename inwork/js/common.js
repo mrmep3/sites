@@ -69,7 +69,7 @@ $(document).ready(function() {
 		},
 		navText : ""
 	});
-	var owl = $('.owl-carousel');
+	var owl = $('.carousel');
 	owl.owlCarousel();
 	$(".next_button").click(function() {
 		owl.trigger("next.owl.carousel");
@@ -79,3 +79,4 @@ $(document).ready(function() {
 	});
 
 });
+

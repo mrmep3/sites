@@ -62,12 +62,25 @@ svg {
   border-top: 1px solid #337AB7;
 }
 
+.section-menu__content span {
+  color: #337AB7;
+}
+
 .section-menu__title h4 {
   letter-spacing: 2px;
 }
 
 .menu_descr {
   background: #f3eeeb;
+}
+
+.item_btn {
+  background-color: #337AB7;
+  border: 1px solid #337AB7;
+}
+
+.item_btn:hover {
+  background-color: #0099CC;
 }
 
 .menu_item-content h2 {
