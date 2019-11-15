@@ -37,10 +37,14 @@ svg {
   color: #337AB7;
 }
 
-.section-about {
-  background-color: #f3fafd;
+.section-menu,
+.section-gallary {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(50, 50, 50, 0.2) 100%);
 }
 
+.section-about,
 .section-reviews,
 .section-contacts {
   background-color: #f3eeeb;
@@ -83,6 +87,18 @@ svg {
   background-color: #0099CC;
 }
 
+.easynetshop-continue {
+  font-family: "Raleway", sans-serif;
+  border: 1px solid #337AB7;
+  background-color: #337AB7;
+  color: #fff;
+}
+
+.easynetshop-continue:hover {
+  background-color: #0099CC;
+  color: #fff;
+}
+
 .menu_item-content h2 {
   border: 2px solid #337AB7;
   color: #fff;
@@ -109,30 +125,16 @@ form button {
   letter-spacing: 1px;
 }
 
-p,
-body .main_footer,
-.s_about li {
+form button:hover {
+  background-color: #0099CC;
+}
+
+.main_footer {
   color: #192428;
 }
 
-.color_element {
+.main_footer a {
   color: #337AB7;
-}
-
-.color_bg {
-  background-color: #337AB7;
-}
-
-.color_border {
-  border-color: #337AB7;
-}
-
-.main_color_bg {
-  background-color: #222;
-}
-
-.bg_ligth {
-  background-color: #f3eeeb;
 }
 
 .bg_dark {
@@ -140,12 +142,8 @@ body .main_footer,
   color: #fff;
 }
 
-.bg_dark .s_descr_wrapp .s_descr:after {
-  background-color: #fff;
-}
-
-.bg_dark a {
-  color: #fff;
+.contact_box .contact_icon {
+  color: #337AB7;
 }
 
 .top_menu a:hover {
@@ -154,81 +152,4 @@ body .main_footer,
 
 .top_menu a {
   letter-spacing: 3px;
-}
-
-.top_text p {
-  color: #f3eeeb;
-  letter-spacing: 4px;
-}
-
-.s_descr {
-  letter-spacing: 5px;
-}
-
-.s_descr::after {
-  background-color: #222;
-}
-
-section h3 {
-  letter-spacing: 3px;
-  color: #192428;
-}
-
-.s_about p:nth-child(even) {
-  color: #337AB7;
-}
-
-.personal_header {
-  letter-spacing: 2px;
-}
-
-.resume_container h3 {
-  color: #222;
-  letter-spacing: 1px;
-}
-
-.resume_item .year {
-  background-color: #337AB7;
-  color: #fff;
-}
-
-.resume_item .resume_description {
-  letter-spacing: 1px;
-}
-
-.s_portfolio li {
-  color: #192428;
-  letter-spacing: 2px;
-}
-
-.s_portfolio li.active {
-  color: #fff;
-  border-bottom: 1px solid #337AB7;
-  border-top: 1px solid #337AB7;
-}
-
-.port_item_cont h3 {
-  color: #fff;
-}
-
-.port_item_cont a {
-  border-color: #337AB7;
-  color: #337AB7;
-}
-
-.main_footer a {
-  color: #337AB7;
-}
-
-.contact_box h3 {
-  color: #000;
-  letter-spacing: 3px;
-}
-
-.contact_box .contact_icon {
-  color: #337AB7;
-}
-
-.text-danger {
-  color: #337AB7;
 }

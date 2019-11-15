@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$(".sandwich").toggleClass("active");
 	});
 
-	$(".top_menu ul a").click(function() {
+	$(".top_menu a").click(function() {
 		$(".top_menu").fadeOut(700);
 		$(".sandwich").toggleClass("active");
 	}).append("<span>");
