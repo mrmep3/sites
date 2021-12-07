@@ -1,0 +1,78 @@
+.st-contents,
+.mv-container {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.mv-event-container {
+    top: 25px;
+}
+
+.subscribe-image {
+    display: none;
+}
+
+.footer {
+    font-size: 100%;
+}
+
+.tab-name {
+    display: none;
+}
+
+#td-print-image-id {
+    display: none;
+}
+
+.st-dtitle {
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.header img {
+    display: none;
+}
+
+.today-button {
+    display: none;
+}
+
+.date-top {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.calendar-container {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 17px;
+}
+
+#calendarTabs1 {
+    display: none;
+}
+
+#calendarTitle {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 22px;
+    padding-left: 8px;
+}
+
+.nav-table {
+    display: none;
+}
+
+.wk-allday {
+	font-size: 17px
+}
+
+.wk-daynames {
+	font-size: 17px
+}
+
+.wk-zip {
+	display: none
+}
+
+.wk-today {
+	font-weight: 600
+}
